@@ -1,0 +1,49 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,700,800,300);
+@import url(https://fonts.googleapis.com/css?family=Russo+One|Marck+Script|Luckiest+Guy|Aldrich);
+@import url(https://fonts.googleapis.com/css?family=Sigmar+One);
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+@import url(https://fonts.googleapis.com/css?family=Inconsolata|Orbitron|Bangers);
+body {
+  background-image: url("https://neobyte-network.net/assets/css/images/stars.png");
+  background-repeat: repeat;
+  background-size: 25%;
+  overflow-x: hidden;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  margin: 2% 10%;
+}
+.flex {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title {
+  font-size: 4em;
+  font-family: 'Montserrat', sans-serif;
+}
+.flex div {
+  border: 3px solid #93f;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 3% 5%;;
+margin-left: auto;
+margin-right: auto;
+font-weight: 900;
+  font-size: 2em;
+  -webkit-transition: background-color .3s; /* Safari */
+  -webkit-transition-timing-function: linear; /* Safari */
+  transition: background-color .3s;
+  transition-timing-function: linear;
+
+}
+.flex div:hover {
+    background-color: rgba(153, 51, 255, 0.2);
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: #93f;
+}
